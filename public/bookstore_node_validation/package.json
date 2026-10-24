@@ -1,0 +1,25 @@
+{
+  "name": "bookstore-node-validation",
+  "version": "1.0.0",
+  "description": "Mini e-commerce bookstore demo with Node.js server-side validation",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "validation",
+    "bookstore"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.22.3"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4"
+  }
+}
